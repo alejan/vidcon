@@ -6,19 +6,19 @@ Instrucciones
 
 Vidcon es una aplicacion hecha en ruby on rails 5. con:
 
-1. Servidor de aplicaciones Puma
+* Servidor de aplicaciones Puma
 
-2. Autenticación bcrypt : que exige que el usuario confirme el password
+* Autenticación bcrypt : que exige que el usuario confirme el password
 
-3. bootstrap-generators : para agilizar la configuracion de los estilos
+* bootstrap-generators : para agilizar la configuracion de los estilos
 
-4. carrierwave : para gestionar la carga de archivos
+* carrierwave : para gestionar la carga de archivos
 
-5. streamio-ffmpeg : para convertir videos a formato mp4
+* streamio-ffmpeg : para convertir videos a formato mp4
 
-6  whenever : para gestionar el crontab y el scheduler
+*  whenever : para gestionar el crontab y el scheduler
 
-7  jw-player : para embeber videos en las plantillas
+*  jw-player : para embeber videos en las plantillas
 
 
 
