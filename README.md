@@ -24,7 +24,7 @@ Vidcon es una aplicacion hecha en ruby on rails 5. con:
 
   Antes de correr la aplicacion:
 
-1. bundle install
+* bundle install
 
 Algunas gemas deben instalarse en el sistema pero depende de al instalacion que tenga de rails .
 Si se tiene conflicto con alguna gema del punto anterior se debe ir a la linea de comandos y entrar la siguiente 
@@ -32,13 +32,13 @@ instruccion :
 
 gem install <nombre de la gema>
 
-2. Flujo de datos
+* Flujo de datos
 
 En Vidcon v0.2.0 , se debe seguir el flujo de acciones disponibles en la página actual. 
 Utilizar el explorador para adelantar o ir a  la pagina anterior puede generar errores ya que
 algunas paginas utilizan ID,s que no se guardan en la sesion.
 
-3. Tarea en batch
+* Tarea en batch
 
 La conversion de videos de otros formatos a mp4 se hace en una operación batch, cada 4 minutos se activa una funcion 
 (Administrador.get_processing_videos) que recorre los registros de videos cargados para verificar si esta pendiente por convertir a formato mp4. Si se hace algun 
