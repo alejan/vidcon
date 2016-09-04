@@ -1,0 +1,44 @@
+.detalle {
+	position: absolute;
+	top: 15%;
+	left: 5%;
+	width: 250px;
+}
+
+span {
+	position: relative;
+	left: 5%;
+}
+
+.dm {
+	font-size: x-small;
+	color: #66BAE2;
+}
+
+.con {
+	color: #000;
+}
+.resumen {
+	position: absolute;
+	left: 30%;
+	top: 15%;
+	color: #000;
+	font-size: smaller;
+}
+
+.previous_page {
+	padding-right: 5%;
+}
+em {
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+.next_page {
+	padding-left: 5%;
+}
+
+.pagination {
+	width: 100%
+}
+

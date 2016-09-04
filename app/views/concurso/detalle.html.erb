@@ -1,0 +1,69 @@
+<div class="row">
+	<div class="col-lg-6 resumen">
+		<table class="table">
+			<thead>
+				<tr>
+					<th>Nombre</th>
+					<th>Apellido</th>
+					<th>Email</th>
+					<th>Fecha</th>
+					<th>Estado</th>
+				</tr>
+			</thead>
+			<tbody>
+				<% @clips.each do |t|%>
+				<tr>
+
+					<td><%= Video.find(t.video_id).name%></td>
+					<td><%= Video.find(t.video_id).last%></td>
+					<td><%= Video.find(t.video_id).email%></td>
+					<td><%= t.created_at.to_date%></td>
+					<%if t.progress == "Converted"%>
+					<td><%= link_to t.progress, t.converted_url %></td>
+					<%else%>
+					<td><%= link_to t.progress, t.preview_url %></td>
+					<%-end%>
+
+				</tr>
+				<%-end%>
+
+			</tbody>
+		</table>
+		<hr>
+		<%= will_paginate @clips  %>
+
+	</div>
+	<div class="detalle col-lg-6">
+
+		<div class="row">
+			<img src=<%= @concurso.avatar%> />
+		</div>
+		<div class="row dm">
+			<a href=<%= @concurso.vid_url%>><span>ver pagina de concurso</span></a>
+
+		</div>
+		<hr>
+		<div class="row con">
+			<span>Concurso:</span>
+			<span><%= @concurso.name%></span>
+		</div>
+		<hr>
+		<div class="row con">
+			<span>Inicio:</span>
+			<span><%= @concurso.open_date%></span>
+		</div>
+		<hr>
+		<div class="row con">
+			<span>Final:</span>
+			<span><%= @concurso.close_date%></span>
+		</div>
+		<hr>
+		<div class="row con">
+			<span>Premio:</span>
+			<span><%= @concurso.winner_price%></span>
+		</div>
+		<hr>
+
+	</div>
+
+</div>

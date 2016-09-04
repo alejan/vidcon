@@ -1,0 +1,14 @@
+<% @concursos.each do |t|  %>
+
+<%=content_tag 'div', class:"well conlist" do%>
+<%= link_to '', concurso_path(id:t.id),method:"delete",class:"glyphicon glyphicon-remove " %>
+<%= t.name%>
+<div class="row">
+	<%= image_tag(t.avatar) %>
+</div>
+<%= link_to 'Editar',concurso_path(id:t.id),class:"btn btn-default glyphicon glyphicon-edit" %>
+<%= link_to 'Detalle',concurso_detalle_path(id:t.id),class:"btn btn-default glyphicon glyphicon-eye-open" %>
+
+<%-end%>
+<%-end%>
+

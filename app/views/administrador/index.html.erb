@@ -1,0 +1,122 @@
+<!-- Navbar -->
+
+<!-- First Container -->
+
+<div class="container-fluid bg-1 ">
+	<!-- Trigger the modal with a button -->
+	<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+		Login
+	</button>
+	<button type="button" class="btn btn-info btn-lg cr" data-toggle="modal" data-target="#myModal1">
+		Crear Cuenta
+	</button>
+	<!-- Modal -->
+	<div id="myModal" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">
+						&times;
+					</button>
+					<h2 class="modal-title">Log in</h2>
+				</div>
+				<div class="modal-body">
+
+					<%= render 'login' %>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+	<div id="myModal1" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">
+						&times;
+					</button>
+					<h2 class="modal-title">Crear Cuenta</h2>
+				</div>
+				<div class="modal-body">
+
+					<%= render  'create' %>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+	<h3></h3>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-1 text-left">
+	<span>Ir a concurso:</span>
+	<%if @concursos %>
+	<% @concursos.each do |t| %>
+	<div class="row">
+
+		<a href=<%= t.vid_url%> class="conlink"><%= t.name%></a>
+	</div>
+	<%end%>
+	<%end%>
+	<h1 class="margin">Concursos de videos</h1>
+	<div class="col-md-4 pr">
+		Crea un concurso de vídeos para que tus usuarios
+		y seguidores puedan participar en una competición de vídeos o cortos,
+		tomados con sus cámaras, teléfonos  o tabletas. Permite a los usuarios
+		participar con una url dedicada. Los participantes podrán participar  subiendo su propio archivo de vídeo guardado en su smartphone o pc.
+		Todas las imágenes se presentarán en una galería de vídeos que podrás hacer pública y personalizar completamente.
+
+		Podrás moderar previamente los vídeos para controlar completamente qué vídeos se publicarán en la galería de concursantes. Viraliza y extiende el alcance de tu concurso de vídeos activando las votaciones, para que así los vídeos de los participantes se puedan votar y compartir. Decide cómo quieres elegir el ganador de la competición de vídeos: a través de votación popular, o bien realizando un sorteo final entre todos los participantes.
+	</div>
+	<div class='ban'>
+		<%= image_tag('collage.png')%>
+	</div>
+
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">
+	<h3 class="margin">Nuestros Servicios</h3>
+	<br>
+	<div class="row">
+		<div class="col-sm-4">
+			<h3>Fotos, video y hashtags contests</h3>
+			<p>
+				Todo lo que usted necesite tomar , procesar y desplegar del contenido generado desde
+				Instagram, Twitter, Youtube, Facebook, Tumblr, y Pinterest. Despliegue fotos y videos aprobados
+				en galerias y obtenga votaciones
+			</p>
+
+		</div>
+
+		<div class="col-sm-4">
+			<h3>Quizzes y juegos</h3>
+			<p>
+				haga marketing de juegos y gane insignias creando divertidas experiencias de
+				usuarios con quizzes y leaderboards
+			</p>
+
+		</div>
+
+		<div class="col-sm-4">
+			<h3>Descargas y formularios</h3>
+			<p>
+				obtenga datos a traves de formularios o eventos en redes sociales, escoja un ganador aleatorio, distribuya codigos unicos y mas
+			</p>
+
+		</div>
+	</div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+	<p>
+		@Vidcon Made By <a href="http://www.uniandes.edu.com">www.uniandes.com</a>
+	</p>
+</footer>
+

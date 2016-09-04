@@ -1,0 +1,17 @@
+<div class="page-header">
+
+	<h1>Preview</h1>
+</div>
+<p>
+	<%= @vidclip.message%>
+</p>
+
+<div id="myElement"></div>
+<script type="text/JavaScript">
+		var playerInstance = jwplayer("myElement");
+	playerInstance.setup({
+	file:"<%= @vidclip.vid%>
+		"
+		});
+</script>
+<script>jwplayer.key = "1Drm351UZ0/ihl+dCmKOxFjuTKfeOP4qpsc4vw==";</script>

@@ -1,0 +1,11 @@
+<%=form_tag "video",method:"post",role:"form",id:"vidf", multipart: true   do %>
+<%= text_field_tag 'id', @videos.id %>
+<%= label_tag 'video','Video',class:"form-group" %>
+<%= file_field_tag 'vid'%>
+<%= label_tag 'message', 'Mensaje',class:"form-group" %>
+<br>
+<%= text_area_tag 'message',nil,rows:3 , cols:27 %>
+<p></p>
+<%= button_tag 'Guardar', class:"btn btn-default"%>
+<%-end%>
+	

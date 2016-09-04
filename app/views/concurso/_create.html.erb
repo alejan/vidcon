@@ -1,0 +1,22 @@
+
+<%=form_tag "concurso",method:"post",role:"form",id:"frm", multipart: true do %>
+    
+    <%=label_tag "name", "Nombre del concurso", class:"form-group"%>
+	<%=text_field_tag "name",@concurso.name,class:"form-control"%><p><p>
+    <%=label_tag "avatar", "Banner", class:"form-group"%>
+   
+	<%=file_field_tag "avatar",class:"boxformat"%><p><p>
+    
+	<%=label_tag "open_date","Fecha de inicio", class:"form-group"%>
+	<%=date_field_tag "open_date",@concurso.open_date,class:"input-group boxformat" %><p><p>
+	<%=label_tag "close_date","Fecha de cierre",class:"form-group" %>
+	<%=date_field_tag "close_date",@concurso.close_date, class:"input-group boxformat"%><p></p>
+	<%=label_tag "winner_price","Premio",class:"form-group" %>
+	<%=text_field_tag "winner_price",@concurso.winner_price, class:"form-control"%><p></p>
+	<hr>
+	<%=submit_tag 'Guardar' ,class:"btn btn-primary" %>
+	
+    <%end %>
+    
+
+

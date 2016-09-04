@@ -1,0 +1,36 @@
+.contest {
+	position: absolute;
+	top: 15%;
+	left: 5%;
+}
+
+.boxformat {
+	border: none;
+	color: #9C9C9C;
+	font-size: small;
+}
+.conlist {
+	position: relative;
+	color: #9C9C9C;
+	float: left;
+}
+
+.glyphicon-remove {
+	position: relative;
+	left: 85%;
+	color: #9C9C9C;
+}
+
+.btn-link {
+	color: #9C9C9C;
+}
+.btn-link:hover {
+	text-decoration: none;
+}
+.admin-list {
+	position: absolute;
+	width: 100%;
+	top: 30%;
+	left: 10%;
+}
+

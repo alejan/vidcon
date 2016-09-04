@@ -1,0 +1,13 @@
+<%=form_tag "video",method:"post",role:"form",id:"vidform", multipart: true   do %>
+<%= hidden_field_tag 'concurso_id', @video.concurso_id %>
+<%= label_tag 'name','Nombres',class:"form-group" %>
+<%= text_field_tag 'name',"",class:"form-control" %>
+
+<%= label_tag 'last',"Apellidos",class:"form-group" %>
+<%= text_field_tag 'last',"",class:"form-control" %>
+
+<%= label_tag 'email','Email',class:"form-group" %>
+<%= text_field_tag 'email',"",class:"form-control" %>
+<p></p>
+<%= button_tag 'Guardar', class:"btn btn-default"%>
+<%-end%>

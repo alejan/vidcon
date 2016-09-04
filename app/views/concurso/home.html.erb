@@ -1,0 +1,48 @@
+<div class="home">
+	<%= image_tag(@concurso.avatar,class:"foto") %>
+
+</div>
+<div class="home-pane">
+	<div class="home-header">
+		<%= @concurso.name%>
+	</div>
+
+</div>
+
+<%= link_to 'Subir Video', video_path(id:@concurso.id), class:"btn btn-info btn-lg ct" %>
+
+<div class="vid-panel">
+
+	<% c=0%>
+	<% @vidclips.each do |t|  %>
+	<%if @concurso.videos.include?(Video.find(t.video_id))%>
+	<%if c== 0%>
+	<div class="row">
+		<%end%>
+		<%if c < 10 %>
+
+		<div class="col-md-4">
+
+			<%= link_to video_tag(t.vid,class:"cd"),t.converted_url  %>
+
+		</div>
+
+		<% c=c+1%>
+		<%end%>
+		<%if c==10%>
+	</div>
+	<% c=0%>
+	<%end%>
+	<%end%>
+	<%-end%>
+
+</div>
+<div class="home-final">
+	<span>Final:</span>
+	<span><%= @concurso.close_date%></span>
+</div>
+<div class="home-inicio">
+	<span>Inicio:</span>
+	<span><%= @concurso.open_date%></span>
+</div>
+

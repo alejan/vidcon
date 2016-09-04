@@ -1,0 +1,81 @@
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">
+					&times;
+				</button>
+				<h2 class="modal-title">Video</h2>
+			</div>
+			<div class="modal-body">
+
+				<%=form_tag "video",method:"post",role:"form",id:"vidf", multipart: true   do %>
+				<%= hidden_field_tag 'id', @videos.id %> <p></p>
+				<%= label_tag 'video','Video',class:"form-group" %>
+				<%= file_field_tag 'vid'%>
+				<%= label_tag 'message', 'Mensaje',class:"form-group" %>
+				<br>
+				<%= text_area_tag 'message',nil,rows:3 , cols:27 %>
+				<p></p>
+				<%= button_tag 'Guardar', class:"btn btn-default"%>
+				<%-end%>
+			</div>
+
+		</div>
+
+	</div>
+</div>
+
+<!-- Modal -->
+
+<div class="tb">
+	
+	<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+		Subir video
+	</button>
+	<div class="datos">
+		<hr>
+		<ul>
+			<li>
+				<%= @videos.name%>
+			</li>
+			<li>
+				<%= @videos.last%>
+			</li>
+			<li>
+				<%= @videos.email%>
+			</li>
+		</ul>
+
+	</div>
+	<hr>
+
+	<table class="table tbl">
+		<thead>
+			<tr>
+				<th>Creado</th>
+				<th>Mensaje</th>
+				<th>Archivo</th>
+				<th>Url</th>
+			</tr>
+		</thead>
+		<tbody>
+			<% @clips.each do |t|%>
+			<tr>
+				<td><%= t.created_at.to_date%></td>
+				<td><%= t.message%></td>
+				<td><%= t.vid.file.filename%></td>
+				<td><a href=<%= t.preview_url%>>ver</a></td>
+			</tr>
+			<%-end%>
+
+		</tbody>
+	</table>
+<% if @clips.length > 0 %>
+<div class="alert alert-info">
+  <strong>Info!</strong>  Tan pronto el video quede publicado en la página del concurso te notificaremos por email
+</div>
+<%end%>
+</div>

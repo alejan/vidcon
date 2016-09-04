@@ -1,0 +1,174 @@
+Running via Spring preloader in process 86890
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 89717
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 92537
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 95365
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 98061
+Running via Spring preloader in process 1077
+Running via Spring preloader in process 3894
+Running via Spring preloader in process 6750
+Running via Spring preloader in process 9566
+Running via Spring preloader in process 12407
+Running via Spring preloader in process 15206
+Running via Spring preloader in process 18003
+Running via Spring preloader in process 20806
+Running via Spring preloader in process 23623
+Running via Spring preloader in process 26451
+Running via Spring preloader in process 29266
+Running via Spring preloader in process 32180
+Running via Spring preloader in process 34900
+Running via Spring preloader in process 37753
+Running via Spring preloader in process 40519
+Running via Spring preloader in process 43329
+Running via Spring preloader in process 46139
+Running via Spring preloader in process 48948
+Running via Spring preloader in process 51751
+Running via Spring preloader in process 54559
+Running via Spring preloader in process 57368
+Running via Spring preloader in process 60248
+Running via Spring preloader in process 62944
+Running via Spring preloader in process 65740
+Running via Spring preloader in process 68542
+Running via Spring preloader in process 71341
+Running via Spring preloader in process 74141
+Running via Spring preloader in process 77063
+Running via Spring preloader in process 79757
+Running via Spring preloader in process 82613
+Running via Spring preloader in process 85375
+Running via Spring preloader in process 88189
+Running via Spring preloader in process 90714
+Running via Spring preloader in process 93409
+Running via Spring preloader in process 96290
+Running via Spring preloader in process 99006
+Running via Spring preloader in process 1829
+Running via Spring preloader in process 4622
+Running via Spring preloader in process 7221
+Running via Spring preloader in process 9584
+Running via Spring preloader in process 12399
+Running via Spring preloader in process 15058
+Running via Spring preloader in process 18049
+Running via Spring preloader in process 20659
+Running via Spring preloader in process 23215
+Running via Spring preloader in process 26057
+RuntimeError: Error connecting to Spring server
+  /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/client/run.rb:140:in `connect_to_application'
+  /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/client/run.rb:67:in `run'
+  /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/client/run.rb:42:in `warm_run'
+  /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/client/run.rb:35:in `call'
+  /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/client/command.rb:7:in `call'
+  /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/client/rails.rb:24:in `call'
+  /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/client/command.rb:7:in `call'
+  /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/client.rb:30:in `run'
+  /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/bin/spring:49:in `<top (required)>'
+  /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/binstub.rb:11:in `load'
+  /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/binstub.rb:11:in `<top (required)>'
+  /Users/alejandroquintero/ruby/cloud/vidcon/bin/spring:13:in `require'
+  /Users/alejandroquintero/ruby/cloud/vidcon/bin/spring:13:in `<top (required)>'
+  bin/rails:3:in `load'
+  bin/rails:3:in `<top (required)>'
+Running via Spring preloader in process 31769
+Running via Spring preloader in process 33643
+Running via Spring preloader in process 36673
+Running via Spring preloader in process 39107
+Running via Spring preloader in process 42107
+Running via Spring preloader in process 44793
+Running via Spring preloader in process 47097
+Running via Spring preloader in process 50571
+Running via Spring preloader in process 53302
+Running via Spring preloader in process 56545
+Running via Spring preloader in process 59458
+Running via Spring preloader in process 62272
+Running via Spring preloader in process 65229
+Running via Spring preloader in process 68004
+Running via Spring preloader in process 70722
+Running via Spring preloader in process 73668
+Running via Spring preloader in process 76116
+Running via Spring preloader in process 78927
+Running via Spring preloader in process 81738
+Running via Spring preloader in process 84504
+Running via Spring preloader in process 87268
+Running via Spring preloader in process 90048
+Running via Spring preloader in process 92862
+Running via Spring preloader in process 95655
+Running via Spring preloader in process 98431
+Running via Spring preloader in process 1422
+Running via Spring preloader in process 4347
+Running via Spring preloader in process 7142
+Running via Spring preloader in process 9892
+Running via Spring preloader in process 12618
+Running via Spring preloader in process 15394
+Running via Spring preloader in process 18254
+Running via Spring preloader in process 21223
+Running via Spring preloader in process 23773
+Running via Spring preloader in process 26799
+Running via Spring preloader in process 29328
+Running via Spring preloader in process 32031
+Running via Spring preloader in process 34822
+Running via Spring preloader in process 37742
+Running via Spring preloader in process 40584
+Running via Spring preloader in process 43090
+Running via Spring preloader in process 45893
+Running via Spring preloader in process 48654
+Running via Spring preloader in process 51218
+Running via Spring preloader in process 53995
+Running via Spring preloader in process 56768
+Running via Spring preloader in process 59545
+Running via Spring preloader in process 62312
+Running via Spring preloader in process 64730
+Running via Spring preloader in process 67461
+Running via Spring preloader in process 70359
+Running via Spring preloader in process 73156
+Running via Spring preloader in process 75829
+Running via Spring preloader in process 78825
+Running via Spring preloader in process 81491
+Running via Spring preloader in process 84363
+Running via Spring preloader in process 87010
+Running via Spring preloader in process 89635
+Running via Spring preloader in process 92419
+Running via Spring preloader in process 95201
+Running via Spring preloader in process 97984
+Running via Spring preloader in process 1406
+Running via Spring preloader in process 4170
+Running via Spring preloader in process 7052
+Running via Spring preloader in process 9816
+Running via Spring preloader in process 12160
+Running via Spring preloader in process 15038
+Running via Spring preloader in process 17566
+Running via Spring preloader in process 20340
+Running via Spring preloader in process 23152
+Running via Spring preloader in process 25815
+Running via Spring preloader in process 28468
+Running via Spring preloader in process 31448
+RuntimeError: Error connecting to Spring server
+  /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/client/run.rb:140:in `connect_to_application'
+  /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/client/run.rb:67:in `run'
+  /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/client/run.rb:42:in `warm_run'
+  /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/client/run.rb:35:in `call'
+  /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/client/command.rb:7:in `call'
+  /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/client/rails.rb:24:in `call'
+  /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/client/command.rb:7:in `call'
+  /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/client.rb:30:in `run'
+  /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/bin/spring:49:in `<top (required)>'
+  /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/binstub.rb:11:in `load'
+  /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/binstub.rb:11:in `<top (required)>'
+  /Users/alejandroquintero/ruby/cloud/vidcon/bin/spring:13:in `require'
+  /Users/alejandroquintero/ruby/cloud/vidcon/bin/spring:13:in `<top (required)>'
+  bin/rails:3:in `load'
+  bin/rails:3:in `<top (required)>'
+Starting Spring server with `/Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/bin/spring server --background` timed out after 20 seconds
+/Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/sid.rb:39:in `getpgid': No such process (Errno::ESRCH)
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/sid.rb:39:in `pgid'
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/server.rb:84:in `set_pgid'
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/server.rb:39:in `boot'
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/server.rb:14:in `boot'
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/client/server.rb:10:in `call'
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/client/command.rb:7:in `call'
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/client.rb:30:in `run'
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/bin/spring:49:in `<main>'

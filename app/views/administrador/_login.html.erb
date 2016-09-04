@@ -1,0 +1,15 @@
+<%=form_tag "index/user",method:"post",role:"form",id:"frm" do %>
+
+<%= label_tag "email", "Email", class:"form-group"%>
+<%= text_field_tag "email",@user.email,class:"form-control"%><p>
+<p>
+	<%= label_tag "password","Password", class:"form-group"%>
+	<%= password_field_tag "password",@user.password, class:"form-control"%>
+<p>
+<p>
+
+	<hr>
+	<%= submit_tag 'Log in' ,class:"btn btn-primary" %>
+
+	<%end %>
+

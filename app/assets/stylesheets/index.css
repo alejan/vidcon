@@ -1,0 +1,74 @@
+body {
+	font: 20px Montserrat, sans-serif;
+	line-height: 1.8;
+	color: #f5f6f7;
+}
+p {
+	font-size: 16px;
+}
+.margin {
+	margin-bottom: 45px;
+}
+.bg-1 {
+
+	padding: 10%;
+	background-color: #66BAE2; /* Green */
+	color: #ffffff;
+	font-size: smaller;
+}
+.bg-3 {
+	background-color: #ffffff; /* Green */
+	color: #9C9C9C;
+}
+.bg-4 {
+	background-color: #2f2f2f; /* Black Gray */
+	color: #fff;
+}
+.container-fluid {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.ban {
+	position: absolute;
+	right: 5%;
+	top: 20%;
+}
+.conlink {
+	position: relative;
+	color: #fff;
+	font-size: smaller;
+	left: 70px;
+}
+.cr {
+	position: absolute;
+	top: 30%;
+	left: 25%;
+}
+
+.navbar {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border: 0;
+	border-radius: 0;
+	margin-bottom: 0;
+	font-size: 18px;
+	letter-spacing: 5px;
+}
+.navbar-nav   a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.modal-content {
+	padding: 2%;
+	color: #000;
+}
+.form-group {
+	font-size: small;
+}
+.pr {
+	width: 300px;
+	height: 500px;
+	overflow-y: scroll;
+}

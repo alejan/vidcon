@@ -1,0 +1,32 @@
+<div class="contest">
+	<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+		Crear Concurso
+	</button>
+	<!-- Modal -->
+	<div id="myModal" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">
+						&times;
+					</button>
+					<h2 class="modal-title">Concurso</h2>
+				</div>
+				<div class="modal-body">
+
+					<%= render :partial => 'concurso/create' %>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<p></p>
+<div class="admin-list">
+
+	<%= render 'concurso/list' %>
+
+</div>
