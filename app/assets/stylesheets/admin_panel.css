@@ -13,12 +13,13 @@
 	position: relative;
 	color: #9C9C9C;
 	float: left;
+	width: 23%;
 }
 
 .glyphicon-remove {
 	position: relative;
 	left: 85%;
-	color: #9C9C9C;
+	color: #D25154;	
 }
 
 .btn-link {

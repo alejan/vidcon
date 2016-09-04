@@ -1,14 +1,26 @@
 <% @concursos.each do |t|  %>
 
 <%=content_tag 'div', class:"well conlist" do%>
-<%= link_to '', concurso_path(id:t.id),method:"delete",class:"glyphicon glyphicon-remove " %>
-<%= t.name%>
 <div class="row">
-	<%= image_tag(t.avatar) %>
+	<div class="col-md-12">
+<%= t.name%>
 </div>
-<%= link_to 'Editar',concurso_path(id:t.id),class:"btn btn-default glyphicon glyphicon-edit" %>
-<%= link_to 'Detalle',concurso_detalle_path(id:t.id),class:"btn btn-default glyphicon glyphicon-eye-open" %>
 
+</div>
+<div class="row">
+	<%= image_tag(t.avatar, height: '150', width: '250') %>
+</div>
+<div class="row">
+	<div class="col-md-2">
+<%= link_to '',concurso_path(id:t.id),class:"btn btn-primary glyphicon glyphicon-edit",title:"editar" %>
+</div>
+<div class="col-sm-2">
+<%= link_to '',concurso_detalle_path(id:t.id),class:"btn btn-primary glyphicon glyphicon-eye-open",title:"detalle" %>
+</div>
+<div class="col-sm-1">
+<%= link_to '', concurso_path(id:t.id),method:"delete",class:"btn btn-danger glyphicon glyphicon-remove ",title:"borrar" %>
+</div>
+</div>
 <%-end%>
 <%-end%>
 

@@ -172,3 +172,273 @@ Starting Spring server with `/Users/alejandroquintero/.rbenv/versions/2.3.1/lib/
 	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/client/command.rb:7:in `call'
 	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/client.rb:30:in `run'
 	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/bin/spring:49:in `<main>'
+Starting Spring server with `/Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/bin/spring server --background` timed out after 20 seconds
+/Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/sid.rb:39:in `getpgid': No such process (Errno::ESRCH)
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/sid.rb:39:in `pgid'
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/server.rb:84:in `set_pgid'
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/server.rb:39:in `boot'
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/server.rb:14:in `boot'
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/client/server.rb:10:in `call'
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/client/command.rb:7:in `call'
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/client.rb:30:in `run'
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/bin/spring:49:in `<main>'
+Starting Spring server with `/Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/bin/spring server --background` timed out after 20 seconds
+/Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/sid.rb:39:in `getpgid': No such process (Errno::ESRCH)
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/sid.rb:39:in `pgid'
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/server.rb:84:in `set_pgid'
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/server.rb:39:in `boot'
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/server.rb:14:in `boot'
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/client/server.rb:10:in `call'
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/client/command.rb:7:in `call'
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/client.rb:30:in `run'
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/bin/spring:49:in `<main>'
+Starting Spring server with `/Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/bin/spring server --background` timed out after 20 seconds
+/Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/sid.rb:39:in `getpgid': No such process (Errno::ESRCH)
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/sid.rb:39:in `pgid'
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/server.rb:84:in `set_pgid'
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/server.rb:39:in `boot'
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/server.rb:14:in `boot'
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/client/server.rb:10:in `call'
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/client/command.rb:7:in `call'
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/client.rb:30:in `run'
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/bin/spring:49:in `<main>'
+Starting Spring server with `/Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/bin/spring server --background` timed out after 20 seconds
+/Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/sid.rb:39:in `getpgid': No such process (Errno::ESRCH)
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/sid.rb:39:in `pgid'
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/server.rb:84:in `set_pgid'
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/server.rb:39:in `boot'
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/server.rb:14:in `boot'
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/client/server.rb:10:in `call'
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/client/command.rb:7:in `call'
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/lib/spring/client.rb:30:in `run'
+	from /Users/alejandroquintero/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/spring-1.7.2/bin/spring:49:in `<main>'
+Running via Spring preloader in process 48759
+Running via Spring preloader in process 49655
+Running via Spring preloader in process 52446
+Running via Spring preloader in process 55164
+Running via Spring preloader in process 58272
+Running via Spring preloader in process 61068
+Running via Spring preloader in process 63856
+Running via Spring preloader in process 66646
+Running via Spring preloader in process 69468
+Running via Spring preloader in process 72240
+Running via Spring preloader in process 74931
+Running via Spring preloader in process 77809
+Running via Spring preloader in process 80701
+Running via Spring preloader in process 83490
+Running via Spring preloader in process 86290
+Running via Spring preloader in process 89068
+Running via Spring preloader in process 91826
+Running via Spring preloader in process 94623
+Running via Spring preloader in process 97313
+Running via Spring preloader in process 225
+Running via Spring preloader in process 3243
+Running via Spring preloader in process 5837
+Running via Spring preloader in process 8621
+Running via Spring preloader in process 11525
+Running via Spring preloader in process 14321
+Running via Spring preloader in process 17109
+Running via Spring preloader in process 19881
+Running via Spring preloader in process 22660
+Running via Spring preloader in process 25553
+Running via Spring preloader in process 28330
+Running via Spring preloader in process 31107
+Running via Spring preloader in process 33991
+Running via Spring preloader in process 36663
+Running via Spring preloader in process 39444
+Running via Spring preloader in process 42223
+Running via Spring preloader in process 45099
+Running via Spring preloader in process 47818
+Running via Spring preloader in process 50743
+Running via Spring preloader in process 53536
+Running via Spring preloader in process 56334
+Running via Spring preloader in process 59103
+Running via Spring preloader in process 61980
+Running via Spring preloader in process 64661
+Running via Spring preloader in process 67532
+Running via Spring preloader in process 70202
+Running via Spring preloader in process 72987
+Running via Spring preloader in process 75774
+Running via Spring preloader in process 78666
+Running via Spring preloader in process 81488
+Running via Spring preloader in process 84260
+Running via Spring preloader in process 87047
+Running via Spring preloader in process 89828
+Running via Spring preloader in process 92640
+Running via Spring preloader in process 95535
+Running via Spring preloader in process 98201
+Running via Spring preloader in process 1274
+Running via Spring preloader in process 3958
+Running via Spring preloader in process 6732
+Running via Spring preloader in process 9609
+Running via Spring preloader in process 12313
+Running via Spring preloader in process 15187
+Running via Spring preloader in process 17972
+Running via Spring preloader in process 20643
+Running via Spring preloader in process 23420
+Running via Spring preloader in process 26197
+Running via Spring preloader in process 29081
+Running via Spring preloader in process 31864
+Running via Spring preloader in process 34658
+Running via Spring preloader in process 37437
+Running via Spring preloader in process 40223
+Running via Spring preloader in process 43101
+Running via Spring preloader in process 45791
+Running via Spring preloader in process 48623
+Running via Spring preloader in process 51428
+Running via Spring preloader in process 54215
+Running via Spring preloader in process 57107
+Running via Spring preloader in process 59889
+Running via Spring preloader in process 62775
+Running via Spring preloader in process 65467
+Running via Spring preloader in process 68252
+Running via Spring preloader in process 71033
+Running via Spring preloader in process 73817
+Running via Spring preloader in process 76626
+Running via Spring preloader in process 79647
+Running via Spring preloader in process 82437
+Running via Spring preloader in process 85263
+Running via Spring preloader in process 88037
+Running via Spring preloader in process 90820
+Running via Spring preloader in process 93607
+Running via Spring preloader in process 96370
+Running via Spring preloader in process 99027
+Running via Spring preloader in process 1988
+Running via Spring preloader in process 4863
+Running via Spring preloader in process 7532
+Running via Spring preloader in process 10285
+Running via Spring preloader in process 13103
+Running via Spring preloader in process 15878
+Running via Spring preloader in process 18657
+Running via Spring preloader in process 21434
+Running via Spring preloader in process 24208
+Running via Spring preloader in process 26985
+Running via Spring preloader in process 29748
+Running via Spring preloader in process 32474
+Running via Spring preloader in process 35195
+Running via Spring preloader in process 37977
+Running via Spring preloader in process 40736
+Running via Spring preloader in process 43498
+Running via Spring preloader in process 46276
+Running via Spring preloader in process 49120
+Running via Spring preloader in process 51898
+Running via Spring preloader in process 54680
+Running via Spring preloader in process 57461
+Running via Spring preloader in process 60222
+Running via Spring preloader in process 63007
+Running via Spring preloader in process 65796
+Running via Spring preloader in process 68572
+Running via Spring preloader in process 71231
+Running via Spring preloader in process 73984
+Running via Spring preloader in process 76794
+Running via Spring preloader in process 79711
+Running via Spring preloader in process 82414
+Running via Spring preloader in process 85203
+Running via Spring preloader in process 87989
+Running via Spring preloader in process 90740
+Running via Spring preloader in process 93495
+Running via Spring preloader in process 96229
+Running via Spring preloader in process 99031
+Running via Spring preloader in process 1854
+Running via Spring preloader in process 4658
+Running via Spring preloader in process 7455
+Running via Spring preloader in process 10155
+Running via Spring preloader in process 12902
+Running via Spring preloader in process 15782
+Running via Spring preloader in process 18488
+Running via Spring preloader in process 21207
+Running via Spring preloader in process 24061
+Running via Spring preloader in process 26762
+Running via Spring preloader in process 29459
+Running via Spring preloader in process 32182
+Running via Spring preloader in process 35002
+Running via Spring preloader in process 37721
+Running via Spring preloader in process 40639
+Running via Spring preloader in process 43435
+Running via Spring preloader in process 46153
+Running via Spring preloader in process 49050
+Running via Spring preloader in process 51857
+Running via Spring preloader in process 54662
+Running via Spring preloader in process 57352
+Running via Spring preloader in process 60181
+Running via Spring preloader in process 63042
+Running via Spring preloader in process 65784
+Running via Spring preloader in process 68618
+Running via Spring preloader in process 71435
+Running via Spring preloader in process 74330
+Running via Spring preloader in process 77187
+Running via Spring preloader in process 80124
+Running via Spring preloader in process 82830
+Running via Spring preloader in process 85618
+Running via Spring preloader in process 88406
+Running via Spring preloader in process 91131
+Running via Spring preloader in process 94032
+Running via Spring preloader in process 96756
+Running via Spring preloader in process 99545
+Running via Spring preloader in process 2525
+Running via Spring preloader in process 5412
+Running via Spring preloader in process 8109
+Running via Spring preloader in process 10999
+Running via Spring preloader in process 13828
+Running via Spring preloader in process 16678
+Running via Spring preloader in process 19483
+Running via Spring preloader in process 22359
+Running via Spring preloader in process 25155
+Running via Spring preloader in process 27869
+Running via Spring preloader in process 30158
+Running via Spring preloader in process 33007
+Running via Spring preloader in process 35804
+Running via Spring preloader in process 38638
+Running via Spring preloader in process 41440
+Running via Spring preloader in process 44235
+Running via Spring preloader in process 47236
+Running via Spring preloader in process 50107
+Running via Spring preloader in process 52689
+Running via Spring preloader in process 55577
+Running via Spring preloader in process 58378
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 61134
+Running via Spring preloader in process 63844
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 66618
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 69539
+Please specify a valid ruby command or the path of a script to run.
+Run 'bin/rails runner -h' for help.
+Running via Spring preloader in process 72210
+Running via Spring preloader in process 74885
+Running via Spring preloader in process 77952
+Running via Spring preloader in process 80588
+Running via Spring preloader in process 83500
+Running via Spring preloader in process 86171
+Running via Spring preloader in process 89157
+Running via Spring preloader in process 91883
+Running via Spring preloader in process 94639
+Running via Spring preloader in process 97433
+Running via Spring preloader in process 389
+Running via Spring preloader in process 3283
+Running via Spring preloader in process 6082
+Running via Spring preloader in process 8776
+Running via Spring preloader in process 11639
+Running via Spring preloader in process 14472
+Running via Spring preloader in process 17180
+Running via Spring preloader in process 19985
+Running via Spring preloader in process 22821
+Running via Spring preloader in process 25537
+Running via Spring preloader in process 28346
+Running via Spring preloader in process 31040
+Running via Spring preloader in process 33837
+Running via Spring preloader in process 36430
+Running via Spring preloader in process 39130
+Running via Spring preloader in process 41933
+Running via Spring preloader in process 44730
+Running via Spring preloader in process 47332
+Running via Spring preloader in process 50179
+Running via Spring preloader in process 52986
+Running via Spring preloader in process 55789
+Running via Spring preloader in process 58494
+Running via Spring preloader in process 61281
+Running via Spring preloader in process 64092

@@ -61,3 +61,71 @@ I, [2016-09-04T00:28:19.566974 #28468]  INFO -- : Running transcoding...
 I, [2016-09-04T00:29:01.957834 #28468]  INFO -- : Transcoding of /Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/vid/155/jaja__1_.mov to /Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/converted/jaja__1_.mov.mp4 succeeded
 
 bundler: failed to load command: bin/rails (bin/rails)
+* Loading engine jw_player_helper
+I, [2016-09-04T01:28:07.600809 #66646]  INFO -- : Running transcoding...
+["/usr/local/bin/ffmpeg", "-y", "-i", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/vid/156/jaja__1_.mov", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/converted/jaja__1_.mov.mp4"]
+
+I, [2016-09-04T01:28:42.543298 #66646]  INFO -- : Transcoding of /Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/vid/156/jaja__1_.mov to /Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/converted/jaja__1_.mov.mp4 succeeded
+
+I, [2016-09-04T01:32:14.697602 #69468]  INFO -- : Running transcoding...
+["/usr/local/bin/ffmpeg", "-y", "-i", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/vid/157/jaja__1_.mov", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/converted/jaja__1_.mov.mp4"]
+
+I, [2016-09-04T01:33:03.658255 #69468]  INFO -- : Transcoding of /Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/vid/157/jaja__1_.mov to /Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/converted/jaja__1_.mov.mp4 succeeded
+
+I, [2016-09-04T10:36:12.299994 #49050]  INFO -- : Running transcoding...
+["/usr/local/bin/ffmpeg", "-y", "-i", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/vid/158/jaja__1_.mov", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/converted/jaja__1_.mov.mp4"]
+
+I, [2016-09-04T10:36:44.211329 #49050]  INFO -- : Transcoding of /Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/vid/158/jaja__1_.mov to /Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/converted/jaja__1_.mov.mp4 succeeded
+
+I, [2016-09-04T10:52:12.287277 #60181]  INFO -- : Running transcoding...
+["/usr/local/bin/ffmpeg", "-y", "-i", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/vid/159/jaja__1_.mov", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/converted/jaja__1_.mov.mp4"]
+
+I, [2016-09-04T10:52:37.039610 #60181]  INFO -- : Transcoding of /Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/vid/159/jaja__1_.mov to /Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/converted/jaja__1_.mov.mp4 succeeded
+
+I, [2016-09-04T11:00:11.809117 #65784]  INFO -- : Running transcoding...
+["/usr/local/bin/ffmpeg", "-y", "-i", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/vid/160/jaja__1_.mov", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/converted/jaja__1_.mov.mp4"]
+
+I, [2016-09-04T11:00:34.938294 #65784]  INFO -- : Transcoding of /Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/vid/160/jaja__1_.mov to /Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/converted/jaja__1_.mov.mp4 succeeded
+
+I, [2016-09-04T13:12:19.076089 #58378]  INFO -- : Running transcoding...
+["/usr/local/bin/ffmpeg", "-y", "-i", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/vid/161/jaja__1_.mov", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/converted/jaja__1_.mov.mp4"]
+
+I, [2016-09-04T13:20:11.478968 #63844]  INFO -- : Running transcoding...
+["/usr/local/bin/ffmpeg", "-y", "-i", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/vid/162/jaja__1_.mov", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/converted/jaja__1_.mov.mp4"]
+
+I, [2016-09-04T13:24:13.476633 #66618]  INFO -- : Running transcoding...
+["/usr/local/bin/ffmpeg", "-y", "-i", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/vid/164/jaja__1_.mov", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/converted/jaja__1_.mov.mp4"]
+
+I, [2016-09-04T13:28:26.936044 #69539]  INFO -- : Running transcoding...
+["/usr/local/bin/ffmpeg", "-y", "-i", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/vid/165/jaja__1_.mov", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/converted/jaja__1_.mov.mp4"]
+
+I, [2016-09-04T13:44:17.501631 #80588]  INFO -- : Running transcoding...
+["/usr/local/bin/ffmpeg", "-y", "-i", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/vid/166/jaja__1_.mov", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/converted/jaja__1_.mov.mp4"]
+
+I, [2016-09-04T13:44:49.771520 #80588]  INFO -- : Transcoding of /Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/vid/166/jaja__1_.mov to /Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/converted/jaja__1_.mov.mp4 succeeded
+
+I, [2016-09-04T13:56:33.578636 #89157]  INFO -- : Running transcoding...
+["/usr/local/bin/ffmpeg", "-y", "-i", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/vid/167/jaja__1_.mov", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/converted/jaja__1_.mov.mp4"]
+
+I, [2016-09-04T13:57:13.191172 #89157]  INFO -- : Transcoding of /Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/vid/167/jaja__1_.mov to /Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/converted/jaja__1_.mov.mp4 succeeded
+
+I, [2016-09-04T14:00:24.844579 #91883]  INFO -- : Running transcoding...
+["/usr/local/bin/ffmpeg", "-y", "-i", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/vid/168/jaja__1_.mov", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/converted/jaja__1_.mov.mp4"]
+
+I, [2016-09-04T14:00:57.745837 #91883]  INFO -- : Transcoding of /Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/vid/168/jaja__1_.mov to /Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/converted/jaja__1_.mov.mp4 succeeded
+
+I, [2016-09-04T14:04:12.501665 #94639]  INFO -- : Running transcoding...
+["/usr/local/bin/ffmpeg", "-y", "-i", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/vid/169/jaja__1_.mov", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/converted/jaja__1_.mov.mp4"]
+
+I, [2016-09-04T14:04:51.171609 #94639]  INFO -- : Transcoding of /Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/vid/169/jaja__1_.mov to /Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/converted/jaja__1_.mov.mp4 succeeded
+
+I, [2016-09-04T14:12:16.974178 #389]  INFO -- : Running transcoding...
+["/usr/local/bin/ffmpeg", "-y", "-i", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/vid/170/jaja__1_.mov", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/converted/jaja__1_.mov.mp4"]
+
+I, [2016-09-04T14:12:57.527914 #389]  INFO -- : Transcoding of /Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/vid/170/jaja__1_.mov to /Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/converted/jaja__1_.mov.mp4 succeeded
+
+I, [2016-09-04T14:16:18.474058 #3283]  INFO -- : Running transcoding...
+["/usr/local/bin/ffmpeg", "-y", "-i", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/vid/171/jaja__1_.mov", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/converted/jaja__1_.mov.mp4"]
+
+I, [2016-09-04T14:16:58.837704 #3283]  INFO -- : Transcoding of /Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/vid/171/jaja__1_.mov to /Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/converted/jaja__1_.mov.mp4 succeeded
+

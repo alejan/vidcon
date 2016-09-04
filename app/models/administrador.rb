@@ -24,6 +24,7 @@ class Administrador < ApplicationRecord
                   w.converted_url=string
                   w.progress = "Convertido"
                   w.save
+                 
                   vc= ConversionMailer.new
                   vc.video_converted_email(v,"puede verlo aca <a href=#{w.converted_url} >#{w.converted_url}</a>").deliver
                 end

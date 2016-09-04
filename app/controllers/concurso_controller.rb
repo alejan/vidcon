@@ -3,14 +3,18 @@ class ConcursoController < ApplicationController
 
     @concurso = Concurso.find_by(vid_url:"/concurso/"+params['id'])
     @video= @concurso.videos.new
-
-    @vidclips =Vidclip.where(:progress => "Convertido").paginate(:page => params[:page],:per_page => 50).order('created_at DESC')
+    ids=@concurso.videos.select(:id)
+    
+    @vidclips =Vidclip.where(:progress => "Convertido",:video_id => ids ).paginate(:page => params[:page],:per_page => 50)
 
   end
 
   def detalle
     @concurso=Concurso.find(params['id'])
-    @clips=Vidclip.paginate(:page => params[:page], :per_page => 3)
+    ids=@concurso.videos.select(:id)
+     @clips =Vidclip.where(:video_id => ids ).paginate(:page => params[:page],:per_page => 10)
+
+    
   end
 
   def show

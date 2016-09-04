@@ -12,18 +12,20 @@
 <%= link_to 'Subir Video', video_path(id:@concurso.id), class:"btn btn-info btn-lg ct" %>
 
 <div class="vid-panel">
+	
+<%=will_paginate @vidclips%>
 
 	<% c=0%>
 	<% @vidclips.each do |t|  %>
-	<%if @concurso.videos.include?(Video.find(t.video_id))%>
+
 	<%if c== 0%>
-	<div class="row">
+	<div class="row reg">
 		<%end%>
 		<%if c < 10 %>
 
-		<div class="col-md-4">
+		<div class="col-md-4 cdp">
 
-			<%= link_to video_tag(t.vid,class:"cd"),t.converted_url  %>
+			<%= link_to video_tag(t.vid, size:"250x250"),t.converted_url  %>
 
 		</div>
 
@@ -34,9 +36,11 @@
 	<% c=0%>
 	<%end%>
 	<%end%>
-	<%-end%>
+		
 
+<%=will_paginate @vidclips%>
 </div>
+
 <div class="home-final">
 	<span>Final:</span>
 	<span><%= @concurso.close_date%></span>
