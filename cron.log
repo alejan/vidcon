@@ -129,3 +129,93 @@ I, [2016-09-04T14:16:18.474058 #3283]  INFO -- : Running transcoding...
 
 I, [2016-09-04T14:16:58.837704 #3283]  INFO -- : Transcoding of /Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/vid/171/jaja__1_.mov to /Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/converted/jaja__1_.mov.mp4 succeeded
 
+bundler: failed to load command: bin/rails (bin/rails)
+* Loading engine jw_player_helper
+bundler: failed to load command: bin/rails (bin/rails)
+* Loading engine jw_player_helper
+bundler: failed to load command: bin/rails (bin/rails)
+* Loading engine jw_player_helper
+bundler: failed to load command: bin/rails (bin/rails)
+* Loading engine jw_player_helper
+bundler: failed to load command: bin/rails (bin/rails)
+* Loading engine jw_player_helper
+bundler: failed to load command: bin/rails (bin/rails)
+* Loading engine jw_player_helper
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+bundler: failed to load command: bin/rails (bin/rails)
+* Loading engine jw_player_helper
+I, [2016-09-10T14:44:14.136980 #30957]  INFO -- : Running transcoding...
+["/usr/local/bin/ffmpeg", "-y", "-i", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/vid/172/jaja__1_.mov", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/converted/jaja__1_.mov.mp4"]
+
+I, [2016-09-10T14:44:49.001770 #30957]  INFO -- : Transcoding of /Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/vid/172/jaja__1_.mov to /Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/converted/jaja__1_.mov.mp4 succeeded
+
+I, [2016-09-10T14:52:11.859575 #36710]  INFO -- : Running transcoding...
+["/usr/local/bin/ffmpeg", "-y", "-i", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/vid/173/jaja__1_.mov", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/converted/jaja__1_.mov.mp4"]
+
+I, [2016-09-10T14:52:41.859483 #36710]  INFO -- : Transcoding of /Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/vid/173/jaja__1_.mov to /Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/converted/jaja__1_.mov.mp4 succeeded
+
+I, [2016-09-10T15:16:06.741673 #53362]  INFO -- : Running transcoding...
+["/usr/local/bin/ffmpeg", "-y", "-i", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/vid/175/jaja__1_.mov", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/converted/jaja__1_.mov.mp4"]
+
+I, [2016-09-10T15:16:38.120052 #53362]  INFO -- : Transcoding of /Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/vid/175/jaja__1_.mov to /Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/converted/jaja__1_.mov.mp4 succeeded
+
+I, [2016-09-10T15:16:38.217086 #53362]  INFO -- : Running transcoding...
+["/usr/local/bin/ffmpeg", "-y", "-i", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/vid/174/jaja__1_.mov", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/converted/jaja__1_.mov.mp4"]
+
+I, [2016-09-10T15:17:13.733343 #53362]  INFO -- : Transcoding of /Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/vid/174/jaja__1_.mov to /Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/converted/jaja__1_.mov.mp4 succeeded
+
+I, [2016-09-10T15:28:27.278567 #61890]  INFO -- : Running transcoding...
+["/usr/local/bin/ffmpeg", "-y", "-i", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/vid/176/jaja__1_.mov", "/Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/converted/jaja__1_.mov.mp4"]
+
+I, [2016-09-10T15:28:59.491989 #61890]  INFO -- : Transcoding of /Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/vid/176/jaja__1_.mov to /Users/alejandroquintero/ruby/cloud/vidcon/public/uploads/vidclip/converted/jaja__1_.mov.mp4 succeeded
+

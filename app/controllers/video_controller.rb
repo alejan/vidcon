@@ -5,7 +5,8 @@ class VideoController < ApplicationController
   end
 
   def new
-    @con = Concurso.find(params['id']) if params['id']
+   session[:concurso_id]=params['id'] if params['id']
+    @con = Concurso.find(session[:concurso_id]) 
     @video = @con.videos.new
    
   end
@@ -33,8 +34,9 @@ class VideoController < ApplicationController
       @videos = vid
       @clips =vid.vidclips.all
       vid.save
-    else
-      @videos= Video.find(params['id'])
+    else 
+      session[:video]=params['id'] if params['id']
+      @videos= Video.find(session[:video])
       @clips = @videos.vidclips.all
       clips=@videos.vidclips.new
       clips.message=params['message']

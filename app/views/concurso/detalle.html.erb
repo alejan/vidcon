@@ -43,7 +43,8 @@
 	<div class="detalle col-lg-6">
 
 		<div class="row">
-			<img src=<%= @concurso.avatar%>  />
+			<%= image_tag(@concurso.avatar, height: '150', width: '250') %>
+			
 		</div>
 		<div class="row dm">
 			<a href=<%= @concurso.vid_url%>><span>ver pagina de concurso</span></a>
