@@ -1,7 +1,8 @@
 class ConcursoController < ApplicationController
   def home
-
-    @concurso = Concurso.find_by(vid_url:"/concurso/"+params['id'])
+   session[:vid_id]=params['id'] if params['id']
+    @concurso = Concurso.find_by(vid_url:"/concurso/"+session[:vid_id])
+    
     @video= @concurso.videos.new
     ids=@concurso.videos.select(:id)
     
